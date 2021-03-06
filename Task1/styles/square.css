@@ -1,0 +1,48 @@
+
+#main{
+    background-color: #FF6600;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border-square {
+    background-color: #6600FF;
+    width: 87%;
+    height: 87%;
+    border: 5px solid black;
+    flex: 15%;
+    margin: 2px 2px 2px 2px;
+    transition: 300ms;
+}
+
+.square {
+    background-color: #6600FF;
+    width: 87%;
+    height: 87%;
+    border: 5px solid black;
+    flex: 15%;
+    margin: 2px 2px 2px 2px;
+}
+
+.border {
+    border: 3px solid black;
+    height: 19%;
+    width: 19%;
+    flex: 17%;
+}
+
+.hover-square {
+    background-color: #00FF66;
+    outline: 4px solid black;
+    outline-offset: 3px;
+    transition: 300ms;
+    transform: scale(1.2);
+    box-shadow: 0 0 0 4px #FF6600;
+}
